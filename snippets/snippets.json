@@ -1,0 +1,374 @@
+{
+  "expect": {
+    "prefix": "expect",
+    "body": "expect(${1:value}).to.;$0"
+  },
+  "expect.to.be.a": {
+    "prefix": "expect.to.be.a",
+    "body": "expect(${1:value}).to.be.a(\"${2:type}\");$0"
+  },
+  "expect.to.be.an": {
+    "prefix": "expect.to.be.an",
+    "body": "expect(${1:value}).to.be.an(\"${2:type}\");$0"
+  },
+  "expect.to.be.an.instanceof": {
+    "prefix": "expect.to.be.an.instanceof",
+    "body": "expect(${1:value}).to.be.an.instanceof(${2:object});$0"
+  },
+  "expect.to.include": {
+    "prefix": "expect.to.include",
+    "body": "expect(${1:value}).to.include(${2:value});$0"
+  },
+  "expect.to.contain": {
+    "prefix": "expect.to.contain",
+    "body": "expect(${1:value}).to.contain(\"${2:string}\");$0"
+  },
+  "expect.to.include.keys": {
+    "prefix": "expect.to.include.keys",
+    "body": "expect(${1:value}).to.include.keys(\"${2:string}\");$0"
+  },
+  "expect.to.be.ok": {
+    "prefix": "expect.to.be.ok",
+    "body": "expect(${1:value}).to.be.ok;$0"
+  },
+  "expect.to.not.be.ok": {
+    "prefix": "expect.to.not.be.ok",
+    "body": "expect(${1:value}).to.not.be.ok;$0"
+  },
+  "expect.to.be.true": {
+    "prefix": "expect.to.be.true",
+    "body": "expect(${1:value}).to.be.true;$0"
+  },
+  "expect.to.not.be.true": {
+    "prefix": "expect.to.not.be.true",
+    "body": "expect(${1:value}).to.not.be.true;$0"
+  },
+  "expect.to.be.false": {
+    "prefix": "expect.to.be.false",
+    "body": "expect(${1:value}).to.be.false;$0"
+  },
+  "expect.to.not.be.false": {
+    "prefix": "expect.to.not.be.false",
+    "body": "expect(${1:value}).to.not.be.false;$0"
+  },
+  "expect.to.be.null": {
+    "prefix": "expect.to.be.null",
+    "body": "expect(${1:value}).to.be.null;$0"
+  },
+  "expect.to.not.be.null": {
+    "prefix": "expect.to.not.be.null",
+    "body": "expect(${1:value}).to.not.be.null;$0"
+  },
+  "expect.to.be.undefined": {
+    "prefix": "expect.to.be.undefined",
+    "body": "expect(${1:value}).to.be.undefined;$0"
+  },
+  "expect.to.not.be.undefined": {
+    "prefix": "expect.to.not.be.undefined",
+    "body": "expect(${1:value}).to.not.be.undefined;$0"
+  },
+  "expect.to.exist": {
+    "prefix": "expect.to.exist",
+    "body": "expect(${1:value}).to.exist;$0"
+  },
+  "expect.to.not.exist": {
+    "prefix": "expect.to.not.exist",
+    "body": "expect(${1:value}).to.not.exist;$0"
+  },
+  "expect.to.be.empty": {
+    "prefix": "expect.to.be.empty",
+    "body": "expect(${1:value}).to.be.empty;$0"
+  },
+  "expect.to.not.be.empty": {
+    "prefix": "expect.to.not.be.empty",
+    "body": "expect(${1:value}).to.not.be.empty;$0"
+  },
+  "expect.to.be.arguments": {
+    "prefix": "expect.to.be.arguments",
+    "body": "expect(${1:value}).to.be.arguments(${2:value});$0"
+  },
+  "expect.to.equal": {
+    "prefix": "expect.to.equal",
+    "body": "expect(${1:value}).to.equal(${2:value});$0"
+  },
+  "expect.to.not.equal": {
+    "prefix": "expect.to.not.equal",
+    "body": "expect(${1:value}).to.not.equal(${2:value});$0"
+  },
+  "expect.to.eql": {
+    "prefix": "expect.to.eql",
+    "body": "expect(${1:value}).to.eql(${2:value});$0"
+  },
+  "expect.to.not.eql": {
+    "prefix": "expect.to.not.eql",
+    "body": "expect(${1:value}).to.not.eql(${2:value});$0"
+  },
+  "expect.to.be.above": {
+    "prefix": "expect.to.be.above",
+    "body": "expect(${1:value}).to.be.above(${2:value});$0"
+  },
+  "expect.to.have.length.above": {
+    "prefix": "expect.to.have.length.above",
+    "body": "expect(${1:value}).to.have.length.above(${2:value});$0"
+  },
+  "expect.to.be.at.least": {
+    "prefix": "expect.to.be.at.least",
+    "body": "expect(${1:value}).to.be.at.least(${2:value});$0"
+  },
+  "expect.to.be.below": {
+    "prefix": "expect.to.be.below",
+    "body": "expect(${1:value}).to.be.below(${2:value});$0"
+  },
+  "expect.to.be.at.most": {
+    "prefix": "expect.to.be.at.most",
+    "body": "expect(${1:value}).to.be.at.most(${2:value});$0"
+  },
+  "expect.to.have.length.of.at.most": {
+    "prefix": "expect.to.have.length.of.at.most",
+    "body": "expect(${1:value}).to.have.length.of.at.most(${2:value});$0"
+  },
+  "expect.to.be.within": {
+    "prefix": "expect.to.be.within",
+    "body": "expect(${1:value}).to.be.within(${2:start}, ${3:finish});$0"
+  },
+  "expect.to.have.length.within": {
+    "prefix": "expect.to.have.length.within",
+    "body": "expect(${1:value}).to.have.length.within(${2:start}, ${3:finish});$0"
+  },
+  "expect.to.have.property": {
+    "prefix": "expect.to.have.property",
+    "body": "expect(${1:value}).to.have.property(\"${2:value}\");$0"
+  },
+  "expect.to.have.deep.property": {
+    "prefix": "expect.to.have.deep.property",
+    "body": "expect(${1:value}).to.have.deep.property(\"${2:value}\");$0"
+  },
+  "expect.to.have.ownProperty": {
+    "prefix": "expect.to.have.ownProperty",
+    "body": "expect(${1:value}).to.have.ownProperty(\"${2:value}\");$0"
+  },
+  "expect.to.have.length": {
+    "prefix": "expect.to.have.length",
+    "body": "expect(${1:value}).to.have.length(${2:value});$0"
+  },
+  "expect.to.have.length.below": {
+    "prefix": "expect.to.have.length.below",
+    "body": "expect(${1:value}).to.have.length.below(${2:value});$0"
+  },
+  "expect.to.match": {
+    "prefix": "expect.to.match",
+    "body": "expect(${1:value}).to.match(/${2:regex}/);$0"
+  },
+  "expect.to.have.string": {
+    "prefix": "expect.to.have.string",
+    "body": "expect(${1:value}).to.have.string(\"${2:string}\");$0"
+  },
+  "expect.to.have.keys": {
+    "prefix": "expect.to.have.keys",
+    "body": "expect(${1:value}).to.have.keys(\"${2:string}\");$0"
+  },
+  "expect.to.throw": {
+    "prefix": "expect.to.throw",
+    "body": "expect(${1:value}).to.throw(${2:error});$0"
+  },
+  "expect.to.not.throw": {
+    "prefix": "expect.to.not.throw",
+    "body": "expect(${1:value}).to.not.throw(${2:error});$0"
+  },
+  "expect.to.respondTo": {
+    "prefix": "expect.to.respondTo",
+    "body": "expect(${1:value}).to.respondTo(${2:string});$0"
+  },
+  "expect.to.satisfy": {
+    "prefix": "expect.to.satisfy",
+    "body": "expect(${1:value}).to.satisfy(${2:function});$0"
+  },
+  "expect.to.be.closeTo": {
+    "prefix": "expect.to.be.closeTo",
+    "body": "expect(${1:value}).to.be.closeTo(${2:expected}, ${3:delta});$0"
+  },
+  "assert.fail": {
+    "prefix": "assert.fail",
+    "body": "assert.fail(${1:actual}, ${2:expected}${3:, \"${4:[message]}\", ${5:[operator]}});$0"
+  },
+  "assert.ok": {
+    "prefix": "assert.ok",
+    "body": "assert.ok(${1:object}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.equal": {
+    "prefix": "assert.equal",
+    "body": "assert.equal(${1:actual}, ${2:expected}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.notEqual": {
+    "prefix": "assert.notEqual",
+    "body": "assert.notEqual(${1:actual}, ${2:expected}${3:, \"${3:[message]}\"});$0"
+  },
+  "assert.strictEqual": {
+    "prefix": "assert.strictEqual",
+    "body": "assert.strictEqual(${1:actual}, ${2:expected}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.notStrictEqual": {
+    "prefix": "assert.notStrictEqual",
+    "body": "assert.notStrictEqual(${1:actual}, ${2:expected}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.deepEqual": {
+    "prefix": "assert.deepEqual",
+    "body": "assert.deepEqual(${1:actual}, ${2:expected}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.notDeepEqual": {
+    "prefix": "assert.notDeepEqual",
+    "body": "assert.notDeepEqual(${1:actual}, ${2:expected}${3:, \"${3:[message]}\"});$0"
+  },
+  "assert.isTrue": {
+    "prefix": "assert.isTrue",
+    "body": "assert.isTrue(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.isFalse": {
+    "prefix": "assert.isFalse",
+    "body": "assert.isFalse(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.isNull": {
+    "prefix": "assert.isNull",
+    "body": "assert.isNull(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.isNotNull": {
+    "prefix": "assert.isNotNull",
+    "body": "assert.isNotNull(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.isUndefined": {
+    "prefix": "assert.isUndefined",
+    "body": "assert.isUndefined(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.isDefined": {
+    "prefix": "assert.isDefined",
+    "body": "assert.isDefined(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.isFunction": {
+    "prefix": "assert.isFunction",
+    "body": "assert.isFunction(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.isNotFunction": {
+    "prefix": "assert.isNotFunction",
+    "body": "assert.isNotFunction(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.isObject": {
+    "prefix": "assert.isObject",
+    "body": "assert.isObject(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.isNotObject": {
+    "prefix": "assert.isNotObject",
+    "body": "assert.isNotObject(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.isArray": {
+    "prefix": "assert.isArray",
+    "body": "assert.isArray(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.isNotArray": {
+    "prefix": "assert.isNotArray",
+    "body": "assert.isNotArray(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.isString": {
+    "prefix": "assert.isString",
+    "body": "assert.isString(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.isNotString": {
+    "prefix": "assert.isNotString",
+    "body": "assert.isNotString(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.isNumber": {
+    "prefix": "assert.isNumber",
+    "body": "assert.isNumber(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.isNotNumber": {
+    "prefix": "assert.isNotNumber",
+    "body": "assert.isNotNumber(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.isBoolean": {
+    "prefix": "assert.isBoolean",
+    "body": "assert.isBoolean(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.isNotBoolean": {
+    "prefix": "assert.isNotBoolean",
+    "body": "assert.isNotBoolean(${1:value}${2:, \"${3:[message]}\"});$0"
+  },
+  "assert.typeOf": {
+    "prefix": "assert.typeOf",
+    "body": "assert.typeOf(${1:value}, ${2:name}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.notTypeOf": {
+    "prefix": "assert.notTypeOf",
+    "body": "assert.notTypeOf(${1:value}, ${2:name}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.instanceOf": {
+    "prefix": "assert.instanceOf",
+    "body": "assert.instanceOf(${1:object}, ${2:constructor}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.notInstanceOf": {
+    "prefix": "assert.notInstanceOf",
+    "body": "assert.notInstanceOf(${1:object}, ${2:constructor}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.include": {
+    "prefix": "assert.include",
+    "body": "assert.include(${1:haystack}, ${2:needle}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.match": {
+    "prefix": "assert.match",
+    "body": "assert.match(${1:value}, ${2:regexp}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.notMatch": {
+    "prefix": "assert.notMatch",
+    "body": "assert.notMatch(${1:value}, ${2:regexp}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.property": {
+    "prefix": "assert.property",
+    "body": "assert.property(${1:object}, ${2:property}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.notProperty": {
+    "prefix": "assert.notProperty",
+    "body": "assert.notProperty(${1:object}, ${2:property}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.deepProperty": {
+    "prefix": "assert.deepProperty",
+    "body": "assert.deepProperty(${1:object}, ${2:property}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.notDeepProperty": {
+    "prefix": "assert.notDeepProperty",
+    "body": "assert.notDeepProperty(${1:object}, ${2:property}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.propertyVal": {
+    "prefix": "assert.propertyVal",
+    "body": "assert.propertyVal(${1:object}, ${2:property}, ${3:value}${4:, \"${5:[message]}\"});$0"
+  },
+  "assert.propertyNotVal": {
+    "prefix": "assert.propertyNotVal",
+    "body": "assert.propertyNotVal(${1:object}, ${2:property} ${3:value}${4:, \"${5:[message]}\"});$0"
+  },
+  "assert.deepPropertyVal": {
+    "prefix": "assert.deepPropertyVal",
+    "body": "assert.deepPropertyVal(${1:object}, ${2:property} ${3:value}${4:, \"${5:[message]}\"});$0"
+  },
+  "assert.deepPropertyNotVal": {
+    "prefix": "assert.deepPropertyNotVal",
+    "body": "assert.deepPropertyNotVal(${1:object}, ${2:property}, ${3:value}${4:, \"${5:[message]}\"});$0"
+  },
+  "assert.lengthOf": {
+    "prefix": "assert.lengthOf",
+    "body": "assert.lengthOf(${1:object}, ${2:length}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.throws": {
+    "prefix": "assert.throws",
+    "body": "assert.throws(${1:function}, ${2:constructor/regexp}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.doesNotThrow": {
+    "prefix": "assert.doesNotThrow",
+    "body": "assert.doesNotThrow(${1:function}, ${2:constructor/regexp}${3:, \"${4:[message]}\"});$0"
+  },
+  "assert.operator": {
+    "prefix": "assert.operator",
+    "body": "assert.operator(${1:val1}, ${2:operator}, ${3:val2}${4:, \"${5:[message]}\"});$0"
+  },
+  "assert.closeTo": {
+    "prefix": "assert.closeTo",
+    "body": "assert.closeTo(${1:actual}, ${2:expected}, ${3:delta}${4:, \"${5:[message]}\"}$0"
+  }
+}
