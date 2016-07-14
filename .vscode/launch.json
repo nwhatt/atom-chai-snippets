@@ -1,11 +1,11 @@
 // A launch configuration that launches the extension inside a new window
 {
-    "version": "0.1.0",
+    "version": "0.0.1",
     "configurations": [
         {
             "name": "Launch Extension",
             "type": "extensionHost",
-            "request": "launch",
+            "request": "launch",a
             "runtimeExecutable": "${execPath}",
             "args": ["--extensionDevelopmentPath=${workspaceRoot}" ]
         }
