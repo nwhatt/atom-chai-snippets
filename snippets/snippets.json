@@ -341,11 +341,11 @@
   },
   "assert.propertyNotVal": {
     "prefix": "assert.propertyNotVal",
-    "body": "assert.propertyNotVal(${1:object}, ${2:property} ${3:value}${4:, \"${5:[message]}\"});$0"
+    "body": "assert.propertyNotVal(${1:object}, ${2:property}, ${3:value}${4:, \"${5:[message]}\"});$0"
   },
   "assert.deepPropertyVal": {
     "prefix": "assert.deepPropertyVal",
-    "body": "assert.deepPropertyVal(${1:object}, ${2:property} ${3:value}${4:, \"${5:[message]}\"});$0"
+    "body": "assert.deepPropertyVal(${1:object}, ${2:property}, ${3:value}${4:, \"${5:[message]}\"});$0"
   },
   "assert.deepPropertyNotVal": {
     "prefix": "assert.deepPropertyNotVal",
